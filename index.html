@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-57WEzWB4YH5mr1DTuXTG3CviPFpaoK+E/uQTMARoBsE='; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; connect-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; worker-src 'self'">
 <meta name="referrer" content="no-referrer">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <style>
@@ -25,7 +25,7 @@ img { max-width: 100%; }
   --soft: #D5DAF3;
   --ok: #DEE9D3;
   --ok-line: #7D9C68;
-  --hint: #66c8e838;
+  --hint: #145267f7;
   --hint-line: #eeddee;
   --shadow: rgba(62, 39, 35, .14);
   --font: Verdana, "Arial Rounded MT Bold", Arial, sans-serif;

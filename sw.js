@@ -1,6 +1,5 @@
 const CACHE_NAME = 'cuentos-clara-v2';
 
-// Como solo usas un archivo index.html, solo necesitamos guardar estas dos rutas
 const ASSETS_TO_CACHE = [
   './',
   'index.html'
