@@ -736,6 +736,15 @@ h3 { font-size: 1.2rem; }
   loadLevel(0);
 })();
 </script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js')
+        .then(reg => console.log('Service Worker de Cuentos de Clara activado', reg))
+        .catch(err => console.error('Error al registrar el Service Worker', err));
+    });
+  }
+</script>
 
 </body>
 </html>
